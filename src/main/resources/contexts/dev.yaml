@@ -1,6 +1,6 @@
 dev:
-  author.url: http://localhost:4502
-  author.ip: http://127.0.0.1:4502
+  author.url: http://localhost:5000
+  author.ip: http://127.0.0.1:5000
   author.login: admin
   author.password: admin
   login.token.name: login-token
