@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "etap.etap.login.AuthorizationTest",
+    "children" : [ {
+      "name" : "loginTest()",
+      "uid" : "d839cd6009fa9819",
+      "parentUid" : "304adae26c55073d925878bdb87f8de7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1558444209646,
+        "stop" : 1558444209673,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "304adae26c55073d925878bdb87f8de7"
+  } ]
+}

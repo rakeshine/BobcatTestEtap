@@ -1,0 +1,22 @@
+{
+  "1199b737343a4582a4557b27e36d6934" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d839cd6009fa9819",
+      "status" : "broken",
+      "statusDetails" : "Unable to provision, see the following errors:\r\n\r\n1) Error in custom provider, java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html\r\n  while locating com.cognifide.qa.bb.provider.selenium.webdriver.WebDriverProvider\r\n  while locating org.openqa.selenium.WebDriver\r\n  while locating com.cognifide.qa.bb.aem.core.siteadmin.actions.CreatePageAction\r\n  while locating com.cognifide.qa.bb.api.actions.ActionWithData annotated with @com.google.inject.internal.Element(setName=,uniqueId=17, type=MAPBINDER, keyType=java.lang.String)\r\n  while locating java.util.Map<java.lang.String, com.cognifide.qa.bb.api.actions.ActionWithData>\r\n    for field at com.cognifide.qa.bb.api.actions.internal.DefaultController.actionWithData(DefaultController.java:39)\r\n  while locating com.cognifide.qa.bb.api.actions.internal.DefaultController\r\n  while locating com.cognifide.qa.bb.api.actions.ActionsController\r\n    for field at etap.etap.login.AuthorizationTest.controller(AuthorizationTest.java:27)\r\n  while locating etap.etap.login.AuthorizationTest\r\n\r\n1 error",
+      "time" : {
+        "start" : 1558444209646,
+        "stop" : 1558444209673,
+        "duration" : 27
+      }
+    } ]
+  }
+}

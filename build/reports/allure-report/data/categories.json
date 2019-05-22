@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unable to provision, see the following errors:\r\n\r\n1) Error in custom provider, java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html\r\n  while locating com.cognifide.qa.bb.provider.selenium.webdriver.WebDriverProvider\r\n  while locating org.openqa.selenium.WebDriver\r\n  while locating com.cognifide.qa.bb.aem.core.siteadmin.actions.CreatePageAction\r\n  while locating com.cognifide.qa.bb.api.actions.ActionWithData annotated with @com.google.inject.internal.Element(setName=,uniqueId=17, type=MAPBINDER, keyType=java.lang.String)\r\n  while locating java.util.Map<java.lang.String, com.cognifide.qa.bb.api.actions.ActionWithData>\r\n    for field at com.cognifide.qa.bb.api.actions.internal.DefaultController.actionWithData(DefaultController.java:39)\r\n  while locating com.cognifide.qa.bb.api.actions.internal.DefaultController\r\n  while locating com.cognifide.qa.bb.api.actions.ActionsController\r\n    for field at etap.etap.login.AuthorizationTest.controller(AuthorizationTest.java:27)\r\n  while locating etap.etap.login.AuthorizationTest\r\n\r\n1 error",
+      "children" : [ {
+        "name" : "loginTest()",
+        "uid" : "d839cd6009fa9819",
+        "parentUid" : "3ec28bbc9ef222747473afde0bb7ecc4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1558444209646,
+          "stop" : 1558444209673,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ec28bbc9ef222747473afde0bb7ecc4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
