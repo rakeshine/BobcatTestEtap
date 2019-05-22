@@ -1,11 +1,6 @@
 dev:
   author.url: http://localhost:5000
-  author.ip: http://34.250.207.77:5000
+  author.ip: http://127.0.0.1:5000
   author.login: admin
   author.password: admin
   login.token.name: login-token
-
-  publish.url: http://localhost:4503
-  publish.ip: http://127.0.0.1:4503
-  publish.login: admin
-  publish.password: admin
